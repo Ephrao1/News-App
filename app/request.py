@@ -5,7 +5,7 @@ from .models import Source,Articles
 
 # Getting api key
 
-api_key = None
+api_key = '21d5e7d9c85f4aa482c14e8ef0958307'
 
 # Getting the movie base url
 
@@ -17,7 +17,7 @@ articles_url = None
 
 def configure_request(app):
     global api_key, base_url, articles_url
-    api_key = app.config['NEWS_API_KEY']
+    api_key = '21d5e7d9c85f4aa482c14e8ef0958307'
     base_url = app.config['NEWS_SOURCES_BASE_URL']
     articles_url = app.config['ARTICLES_BASE_URL']
 
