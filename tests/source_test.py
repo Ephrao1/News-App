@@ -26,5 +26,4 @@ class SourceTest(unittest.TestCase):
         self.assertEqual(self.new_source.country,'U.S.A')
         self.assertEqual(self.new_source.language,'en')
 
-# if __name__ == '__main__':
-#     unittest.main()
+
